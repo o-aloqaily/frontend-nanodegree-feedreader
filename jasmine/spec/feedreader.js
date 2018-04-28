@@ -76,8 +76,8 @@ $(function() {
 
          // test when loadFeed is called, there exists at least one entry in the feed container
          it('feed container should have at least one entry element when loadFeed is called', function(done) {
-           const articleClass = document.querySelector('.feed .entry-link article').className;
-           expect(articleClass).toBe('entry');
+           const article = $('.feed .entry-link article');
+           expect(article.hasClass('entry')).toBe(true);
            done();
          });
       });

@@ -13,13 +13,13 @@ var allFeeds = [
         url: 'http://blog.udacity.com/feed'
     }, {
         name: 'CSS Tricks',
-        url: 'http://feeds.feedburner.com/CssTricks'
+        url: 'http://blog.udacity.com/feed'
     }, {
         name: 'HTML5 Rocks',
-        url: 'http://feeds.feedburner.com/html5rocks'
+        url: 'http://blog.udacity.com/feed'
     }, {
         name: 'Linear Digressions',
-        url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+        url: 'http://blog.udacity.com/feed'
     }
 ];
 
